@@ -1,0 +1,38 @@
+Principais Recursos AWS e suas Responsabilidades
+
+Computação
+EC2 (Elastic Compute Cloud)
+Responsabilidade AWS: Fornecer e gerenciar a infraestrutura de computação subjacente.
+Responsabilidade Cliente: Configurar e manter o sistema operacional e aplicativos dentro da instância EC2.
+LightSail
+Responsabilidade AWS: Implementar e gerenciar automaticamente os recursos de computação, armazenamento e rede.
+Responsabilidade Cliente: Configurar e gerenciar aplicativos e dados do ambiente LightSail.
+Elastic Beanstalk
+Responsabilidade AWS: Oferecer implantação e provisionamento automatizados de recursos para aplicativos de produção.
+Responsabilidade Cliente: Desenvolver e gerenciar o código do aplicativo, bem como configurar o ambiente de execução.
+EKS (Elastic Container Service para Kubernetes)
+Responsabilidade AWS: Gerenciar a infraestrutura subjacente para execução e orquestração de contêineres Kubernetes.
+Responsabilidade Cliente: Configurar e gerenciar os aplicativos e contêineres no ambiente Kubernetes.
+AWS Lambda
+Responsabilidade AWS: Gerenciar a execução de funções na nuvem de forma escalável e sem servidor.
+Responsabilidade Cliente: Desenvolver e carregar funções personalizadas, além de configurar eventos e triggers.
+Migração
+DMS (Serviço de Migração de Banco de Dados)
+Responsabilidade AWS: Facilitar a migração de bancos de dados locais para a AWS.
+Responsabilidade Cliente: Configurar e monitorar o processo de migração, incluindo seleção de fontes e destinos.
+SMS (Serviço de Migração de Servidor)
+Responsabilidade AWS: Auxiliar na migração de servidores locais para a AWS.
+Responsabilidade Cliente: Planejar, preparar e executar a migração de servidores, configurando conectividade e integração.
+Snowball
+Responsabilidade AWS: Fornecer solução para transferência de grandes volumes de dados para a nuvem.
+Responsabilidade Cliente: Preparar e gerenciar os dados a serem transferidos usando o dispositivo Snowball.
+Armazenamento
+Amazon Glacier
+Responsabilidade AWS: Oferecer armazenamento seguro e de baixo custo para arquivamento e backup de dados.
+Responsabilidade Cliente: Gerenciar políticas de retenção e acessos aos dados armazenados.
+Amazon Elastic Block Store (EBS)
+Responsabilidade AWS: Fornecer armazenamento em bloco para instâncias EC2.
+Responsabilidade Cliente: Configurar e gerenciar volumes EBS, incluindo snapshots e políticas de backup.
+AWS Storage Gateway
+Responsabilidade AWS: Integrar aplicativos locais com armazenamento em nuvem.
+Responsabilidade Cliente: Configurar e gerenciar a integração entre sistemas locais e o armazenamento em nuvem.
