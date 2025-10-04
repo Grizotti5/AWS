@@ -15,20 +15,37 @@ O objetivo é consolidar o aprendizado e servir como material de consulta rápid
 
 O AWS Step Functions é um serviço serverless que permite orquestrar fluxos de trabalho compostos por várias funções Lambda e serviços AWS.
 
+### Principais Conceitos
+- State Machine: Define o fluxo completo.
+- State: Uma etapa do processo.
+- Task: Executa uma ação (ex: Lambda).
+- Choice / Parallel / Wait: Controle de fluxo e lógica condicional.
+  
+---
+
+AWS CloudFormation
+
+O AWS CloudFormation é um serviço que permite criar e gerenciar recursos da AWS por meio de **infraestrutura como código (IaC)** usando arquivos YAML ou JSON.
+
+### Principais Conceitos
+- Stack: Conjunto de recursos criados como uma unidade.
+- Template: Arquivo que descreve a infraestrutura.
+- Resource: Recurso da AWS (ex: EC2, S3, Lambda).
+- Parameters / Outputs: Entradas e saídas do template.
+  
+---
+##  Observações
+
+- As anotações refletem meu aprendizado e podem conter interpretações pessoais.
+
+---
+
 ## Objetivos do Repositório
 
 - Organizar anotações do curso
 - Facilitar revisões futuras
 - Criar um guia prático para consultas rápidas
 
----
-
-##  Observações
-
-- As anotações refletem meu aprendizado e podem conter interpretações pessoais.
-- Sinta-se à vontade para sugerir melhorias ou contribuir!
-
----
 
 ## Autor
 
