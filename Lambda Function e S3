@@ -1,0 +1,24 @@
+O que é o AWS Lambda?
+
+O AWS Lambda é um serviço serverless (sem servidor) que permite executar código sob demanda, sem precisar provisionar ou gerenciar servidores.
+Você apenas envia sua função (em linguagens como Node.js, Python, Java, Go, etc.) e a AWS cuida de toda a infraestrutura — escalando automaticamente conforme o número de requisições.
+
+Como Funciona
+1. Você cria uma função Lambda com o código que quer executar.
+2. Define um gatilho (trigger) — como um evento do S3, API Gateway, DynamoDB, etc.
+3. Quando o evento ocorre, o Lambda é automaticamente executado.
+
+Passo a Passo para Criar uma Função Lambda
+1. Acesse o console AWS Lambda
+2. Crie uma nova função
+3. Clique em Create function
+4. Escolha “Author from scratch”
+5. Defina nome, runtime e permissões (IAM Role)
+6. Adicione o código da função
+* Pode escrever direto no console ou fazer upload de um arquivo .zip / pacote do GitHub
+
+Configure um gatilho (Trigger)
+Ex: API Gateway, S3, EventBridge, DynamoDB Streams, etc.
+Salve e teste
+
+O Lambda executará o código sempre que o evento for disparado.
