@@ -46,6 +46,18 @@ O AWS Lambda é um serviço serverless que executa funções sob demanda em resp
 - Execution Role: Permissões da função.  
 
 ---
+
+## Amazon S3
+
+O Amazon S3 é um serviço de armazenamento em nuvem que permite armazenar e acessar dados de forma segura e escalável.
+
+### Conceitos
+- Bucket: Contêiner de objetos.  
+- Object: Arquivo armazenado.
+- Key: Caminho do objeto no bucket.  
+- Permissions: Controle de acesso.
+
+---
 ##  Observações
 
 - As anotações refletem meu aprendizado e podem conter interpretações pessoais.
