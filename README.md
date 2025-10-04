@@ -11,7 +11,7 @@ O objetivo é consolidar o aprendizado e servir como material de consulta rápid
   - Boas Práticas e Arquitetura em Cloud
 ---
 
-### AWS Step Functions
+## AWS Step Functions
 
 O AWS Step Functions é um serviço serverless que permite orquestrar fluxos de trabalho compostos por várias funções Lambda e serviços AWS.
 
@@ -23,7 +23,7 @@ O AWS Step Functions é um serviço serverless que permite orquestrar fluxos de 
   
 ---
 
-AWS CloudFormation
+## AWS CloudFormation
 
 O AWS CloudFormation é um serviço que permite criar e gerenciar recursos da AWS por meio de **infraestrutura como código (IaC)** usando arquivos YAML ou JSON.
 
@@ -33,6 +33,18 @@ O AWS CloudFormation é um serviço que permite criar e gerenciar recursos da AW
 - Resource: Recurso da AWS (ex: EC2, S3, Lambda).
 - Parameters / Outputs: Entradas e saídas do template.
   
+---
+
+##AWS Lambda
+
+O AWS Lambda é um serviço serverless que executa funções sob demanda em resposta a eventos, sem precisar gerenciar servidores.
+
+### Conceitos
+- Lambda Function: Código executado automaticamente na AWS.  
+- Trigger: Evento que dispara a função (ex: upload no S3).  
+- Runtime: Ambiente de execução (Node.js, Python, etc).  
+- Execution Role: Permissões da função.  
+
 ---
 ##  Observações
 
