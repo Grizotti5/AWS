@@ -1,0 +1,16 @@
+Passo a Passo para Criar uma Step Function
+a. Criar as funções Lambda que serão usadas nos steps.
+
+* Cada função deve estar com permissões corretas no IAM.
+
+Acessar o AWS Step Functions Console
+1. Criar uma nova State Machine
+2. Clique em Create state machine
+3. Escolha Author with code snippets
+
+Configurar permissões
+a. Crie uma IAM Role com permissão para executar as Lambdas e serviços usados.
+
+Executar e Monitorar
+a.Clique em Start Execution
+Ele mostra cada etapa, tempo, sucesso e falha.
