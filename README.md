@@ -11,6 +11,10 @@ O objetivo é consolidar o aprendizado e servir como material de consulta rápid
   - Boas Práticas e Arquitetura em Cloud
 ---
 
+### AWS Step Functions
+
+O AWS Step Functions é um serviço serverless que permite orquestrar fluxos de trabalho compostos por várias funções Lambda e serviços AWS.
+
 ## Objetivos do Repositório
 
 - Organizar anotações do curso
