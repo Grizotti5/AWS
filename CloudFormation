@@ -1,0 +1,23 @@
+O AWS CloudFormation é um serviço da AWS que permite criar e gerenciar toda a infraestrutura como código (IaC — Infrastructure as Code).
+Com ele, você define todos os recursos da AWS (como EC2, S3, Lambda, RDS, etc.) em modelos declarativos (YAML ou JSON), e o CloudFormation cria, atualiza e deleta automaticamente esses recursos conforme o modelo.
+
+Por que usar CloudFormation?
+1. Automatiza a criação de recursos AWS
+2. Garante padronização e repetibilidade das infraestruturas
+3. Facilita controle de versão da infraestrutura
+4. Evita configurações manuais no console
+5. Permite replicar ambientes (desenvolvimento, teste, produção) com o mesmo template
+
+Passo a Passo para Criar uma Stack
+
+1. Crie um arquivo de template (yaml ou json)
+a. Descreva os recursos que deseja provisionar.
+
+2. Acesse o console do CloudFormation
+3. Clique em “Create stack”
+4. Escolha “With new resources (standard)”
+5. Faça upload do seu template
+6. Defina parâmetros (opcional)
+* Valores que podem ser reutilizados em diferentes ambientes.
+
+O CloudFormation criará automaticamente todos os recursos.
